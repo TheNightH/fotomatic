@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Rubik&display=swap');
+
+body {
+    margin: 0px;
+}
+
+/* navigation */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+.nav {
+    width: 70%;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4A4A4A;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+}
+
+.nav li {
+    list-style: none;
+    text-overflow: clip;
+    margin: auto 3%;
+}
+
+.nav-title {
+    color: #4A4A4A;
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono Regular';
+    margin-left: 3%;
+    align-self: center;
+    width: 20%;
+}
+
+.insta-logo {
+    height: 1.2rem;
+    margin-right: 16px;
+    display: inline-block
+}
+
+.join-us {
+    color: aliceblue;
+    background-color: #9DC20A;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    width: 100px;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-right: 16px;
+}
+
+/* section 1 */
+
+.sect1 {
+    margin: 0;
+    display: inline-block;
+    background-image: url('img/banner-landingpage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+
+}
+
+.green-section {
+    margin-top: 170px;
+    margin-bottom: 170px;
+    margin-left: 100px;
+    background-color: #9DC20A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-around;
+    width: 568px;
+    color: aliceblue;
+    border: 1px solid #9DC20A;
+    border-radius: 4px;
+}
+
+.green-section h2 {
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.green-section h1 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.green-section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 12px 85px 26px 85px;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.green-section button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 26px 80px 50px 80px;
+    width: 408px;
+    height: 64px;
+    border: 0 solid #4A4A4A;
+    border-radius: 4px;
+    background-color: #4A4A4A;
+    color: aliceblue;
+}
+
+/* section 2 */
+.sect2 {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card1 {
+    margin: 64px 0px 32px 0px;
+    background-color: aliceblue;
+    height: auto;
+    width: 45%;
+    text-align: center;
+
+}
+
+.card1 img {
+    width: 90%;
+    height: auto;
+    margin: 5%;
+}
+
+.card1 h1 {
+    color: #4A4A4A;
+    line-height: 1.2;
+    font-size: 2, 25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card1 p {
+    color: #4A4A4A;
+    line-height: 1.2;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* section 3 */
+.sect3 {
+    background-color: #4A4A4A;
+    text-align: center;
+    color: aliceblue;
+    display: inline-block;
+    width: 100%;
+}
+
+.text {
+    margin-top: 64px;
+    margin-bottom: 46px;
+}
+
+.text h1 {
+    margin-bottom: 0px;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.text p {
+    margin-top: 0px;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.gallery {
+    margin-bottom: 64px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+}
+
+.gallery img {
+    height: 25%;
+    width: 25%;
+}
+
+/* section 4 */
+
+.sect4 {
+    background-color: aliceblue;
+    font-size: 1.8rem;
+    color: #4A4A4A;
+    line-height: 1.1;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-indent: 2rem;
+    text-align: center;
+}
+
+.sect4 img {
+    height: 1.8rem;
+    width: auto;
+    margin-left: 30px;
+}
+
+/* footer */
+footer {
+    background-color: #9B9B9B;
+    color: white;
+    height: 50px;
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 32px 25px 15px;
+    align-items: center;
+
+}
+
+footer div {
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color: #9DC20A;
+}
+
+@media screen and (min-width: 780px) {
+    .tablet {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 495px) {
+    .nav {
+        width: 90%;
+    }
+
+    .nav ul {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-title {
+        font-size: 1.2rem;
+        margin-left: 16px;
+        width: 10%;
+    }
+
+    .join-us {
+        margin-right: 10px;
+        width: 110px;
+    }
+
+
+    .green-section {
+        display: none;
+    }
+
+    .sect1 {
+        height: 350px;
+    }
+
+    .banner {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner h2 {
+        margin-top: 32px;
+        margin-bottom: 0;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .baneer h1 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .gallery img {
+        height: 45%;
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .phone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+    .green-section {
+        display: none;
+    }
+
+    .sect2 {
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card1 {
+        margin: 15px 0px 15px 0px;
+        background-color: aliceblue;
+        height: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    .gallery {
+        margin-bottom: 32px;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .gallery img {
+        height: auto;
+        width: 45%;
+    }
+
+    .sect4 {
+        flex-direction: column;
+        line-height: 1.4;
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    .banner {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner h2 {
+        margin-top: 32px;
+        margin-bottom: 0;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: 500;
+    }
+
+    .baneer h1 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 76px;
+        font-weight: 400;
+        letter-spacing: 0.2em;
+    }
+
+    .text {
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+
+    /* navigation */
+
+    .nav ul {
+        display: none;
+    }
+
+    .insta-logo {
+        display: none;
+    }
+
+    .nav-title {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-top: 10px;
+
+    }
+
+    .nav img {
+        height: 32px;
+        width: auto;
+    }
+
+    .join-us {
+        margin: 0;
+        font-size: 20px;
+        padding: 0.4;
+        height: 40px;
+    }
+}
